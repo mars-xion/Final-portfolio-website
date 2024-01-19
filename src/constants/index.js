@@ -28,30 +28,39 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
-    path: ".#about",
-  },
-  {
-    id: "testimonials",
-    title: "Testimonials",
-    path: ".#testimonials",
-  },
-  {
     id: "projects",
     title: "Projects",
     path: "/projects",
   },
-
-  {
-    id: "contact",
-    title: "Contact",
-    path: ".#contact",
-  },
   {
     id: "LO",
     title: "All LO",
-    path: "/LOAll",
+    path: "./lOAll",
+  },
+  {
+    title: "Portfolio",
+    path: "/Portfolio",
+    id: "Portfolio",
+  },
+  {
+    title: "GroupProject",
+    path: "/Group",
+    id: "group",
+  },
+  {
+    title: "Out of Space",
+    path: "/OutOfSpace",
+    id: "outofSpace",
+  },
+  {
+    title: "Dutch Design Week",
+    path: "/DutchDesignWeek",
+    id: "dutchdesignWeek",
+  },
+  {
+    title: "Malaga",
+    path: "/Weyweyweb",
+    id: "weyweyweb",
   },
 ];
 
