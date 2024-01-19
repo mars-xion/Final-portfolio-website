@@ -6,11 +6,11 @@ import Projects from "./pages/Projects";
 import LearningOutcomeDetail from "./pages/LearningOutcomeDetail";
 
 //divisions
-import Portfolio from "./pages/Portfolio";
-import OutOfSpace from "./pages/OutOfSpace";
-import DutchDesignWeek from "./pages/DutchDesignWeek";
-import Weyweyweb from "./pages/Weyweyweb";
-import Group from "./pages/Group";
+import Portfolio from "/Portfolio";
+import OutOfSpace from "/OutOfSpace";
+import DutchDesignWeek from "/DutchDesignWeek";
+import Weyweyweb from "/Weyweyweb";
+import Group from "/Group";
 
 //other
 import LOAll from "./pages/LOAll";
@@ -26,16 +26,16 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/outofspace" element={<OutOfSpace />} />
-            <Route path="/dutchdesignWeek" element={<DutchDesignWeek />} />
+            <Route path="/Portfolio" element={<Portfolio />} />
+            <Route path="/OutOfSpace" element={<OutOfSpace />} />
+            <Route path="/DutchDesignWeek" element={<DutchDesignWeek />} />
             <Route path="/weyweyweb" element={<Weyweyweb />} />
             <Route
               path="/learning-outcome-detail"
               element={<LearningOutcomeDetail />}
             />
             <Route path="/lOAll" element={<LOAll />} />
-            <Route path="/src/pages/Group.jsx" element={<Group />} />
+            <Route path="/Group" element={<Group />} />
           </Routes>
         </div>
       </div>
