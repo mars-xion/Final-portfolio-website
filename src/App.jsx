@@ -6,11 +6,11 @@ import Projects from "./pages/Projects";
 import LearningOutcomeDetail from "./pages/LearningOutcomeDetail";
 
 //divisions
-import Portfolio from "/Portfolio";
-import OutOfSpace from "/OutOfSpace";
-import DutchDesignWeek from "/DutchDesignWeek";
-import Weyweyweb from "/Weyweyweb";
-import Group from "/Group";
+import Portfolio from "./pages/Portfolio";
+import OutOfSpace from "./pages/OutOfSpace";
+import DutchDesignWeek from "./pages/DutchDesignWeek";
+import Weyweyweb from "./pages/Weyweyweb";
+import Group from "./pages/Group";
 
 //other
 import LOAll from "./pages/LOAll";
