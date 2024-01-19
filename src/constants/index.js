@@ -51,7 +51,7 @@ export const navLinks = [
   {
     id: "LO",
     title: "All LO",
-    path: "/src/pages/LOAll.jsx",
+    path: "/LOAll",
   },
 ];
 
