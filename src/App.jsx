@@ -35,7 +35,7 @@ const App = () => {
               element={<LearningOutcomeDetail />}
             />
             <Route path="/lOAll" element={<LOAll />} />
-            <Route path="/group" element={<Group />} />
+            <Route path="/src/pages/Group.jsx" element={<Group />} />
           </Routes>
         </div>
       </div>
