@@ -26,16 +26,20 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/Portfolio" element={<Portfolio />} />
-            <Route path="/OutOfSpace" element={<OutOfSpace />} />
-            <Route path="/DutchDesignWeek" element={<DutchDesignWeek />} />
-            <Route path="/weyweyweb" element={<Weyweyweb />} />
+            {divisions.map((division) => (
+              <Route
+                key={division.id}
+                path={`/${division.id}`}
+                element={React.createElement(
+                  require(`./pages/${division.id}`).default
+                )}
+              />
+            ))}
             <Route
               path="/learning-outcome-detail"
               element={<LearningOutcomeDetail />}
             />
             <Route path="/lOAll" element={<LOAll />} />
-            <Route path="/Group" element={<Group />} />
           </Routes>
         </div>
       </div>
